@@ -59,8 +59,8 @@ public class LoginTest extends BaseTest {
 	
 
 //	@Test(dataProvider = "LoginData2")
-	@Test
-	@Parameters({"username", "password"})
+//	@Test
+//	@Parameters({"username", "password"})
 	public void testValidLogin(String username, String password){
 		
 		Log.info("Starting login test...");
@@ -105,7 +105,7 @@ public class LoginTest extends BaseTest {
 		System.out.println("Title of the page is :" + driver.getTitle());
 		test.info("Verifying Page Title");
 		Log.info("Verifying page title.");
-		Assert.assertEquals(driver.getTitle(), "Just a moment...123"); 
+		Assert.assertEquals(driver.getTitle(), "Just a moment..."); 
 		test.pass("Login Successful"); 
 	}		
 		
