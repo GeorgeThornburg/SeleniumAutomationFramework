@@ -59,7 +59,14 @@
 			<version>5.4.1</version>
 		</dependency>
 
-	</dependencies>
+		<!-- https://mvnrepository.com/artifact/org.projectlombok/lombok -->
+		<dependency>
+			<groupId>org.projectlombok</groupId>
+			<artifactId>lombok</artifactId>
+			<version>1.18.42</version>
+		</dependency>
+
+	</dependencies> 
 
 	<build>
 		<plugins>
